@@ -40,6 +40,34 @@ body { font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #66
 .draw-controls { display: flex; align-items: center; gap: 12px; }
 .remaining-counter { color: #ffffff; font-weight: 700; background: rgba(0,0,0,0.25); padding: 8px 14px; border-radius: 999px; box-shadow: inset 0 0 0 2px rgba(255,255,255,0.25); }
 
+/* Reversed visuals: subtler, prettified background without badge */
+.drawn-card.reversed .card-front { position: relative; }
+.drawn-card.reversed .card-front::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(214, 48, 49, 0.28), rgba(225, 112, 85, 0.18));
+  pointer-events: none;
+}
+.drawn-card.reversed .card-front img { transform: rotate(180deg) translateZ(0.1px); }
+
+.result-card.reversed { position: relative; }
+.result-card.reversed::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(214, 48, 49, 0.22), rgba(225, 112, 85, 0.12));
+  pointer-events: none;
+}
+.result-card.reversed img { transform: rotate(180deg); }
+
+/* Reversed badge and orientation */
+.rev-badge { display: inline-block; padding: 4px 8px; font-size: 0.75rem; font-weight: 700; color: #fff; background: linear-gradient(45deg, #d63031, #e17055); border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); margin-top: 6px; }
+.drawn-card.reversed .card-front img { transform: rotate(180deg) translateZ(0.1px); }
+.result-card.reversed img { transform: rotate(180deg); }
+
 /* Deck styling */
 .deck { position: relative; width: 120px; height: 180px; cursor: pointer; transition: transform 0.3s ease; }
 .deck:hover { transform: translateY(-5px); }
