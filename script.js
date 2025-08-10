@@ -7,12 +7,12 @@ const tarotCards = [
         name: "The Fool",
         image: "assets/the_fool.webp",
         meanings: {
-            love: "새로운 사랑의 시작, 순수한 마음으로 연애에 임하세요. 기존의 편견을 버리고 마음을 열어보세요.",
-            money: "새로운 기회를 잡을 때, 직감을 믿고 도전하세요. 과거의 실패에 얽매이지 말고 새로운 시작을 하세요."
+            love: "A fresh start in love. Approach relationships with innocence and an open heart. Drop old prejudices.",
+            money: "Seize new opportunities. Trust your instincts and take bold action. Don’t cling to past failures."
         },
         reversed_meanings: {
-            love: "경솔함과 방향성 부족. 관계에서 속도를 늦추고 신중함을 더하세요.",
-            money: "성급한 투자·결정 주의. 기본기를 점검하고 계획을 세우세요."
+            love: "Impulsiveness and lack of direction. Slow down and be more thoughtful.",
+            money: "Beware rash investments and decisions. Revisit fundamentals and make a plan."
         }
     },
     {
@@ -20,12 +20,12 @@ const tarotCards = [
         name: "The Magician",
         image: "assets/the magician.webp",
         meanings: {
-            love: "당신의 매력과 능력을 활용하여 사랑을 만들어가세요. 자신감을 가지고 적극적으로 행동하세요.",
-            money: "당신의 재능과 기술을 활용하여 성공을 만들어가세요. 모든 도구가 준비되어 있습니다."
+            love: "Use your charm and capability to create the love you want. Act with confidence.",
+            money: "Apply your skills and talents to build success. The tools are ready."
         },
         reversed_meanings: {
-            love: "의사소통 왜곡·조작적 태도 경계. 진정성 회복이 필요합니다.",
-            money: "계획 미흡·분산된 에너지. 우선순위를 정하고 실행력을 개선하세요."
+            love: "Watch for miscommunication and manipulation. Restore sincerity.",
+            money: "Scattered focus and weak planning. Set priorities and improve execution."
         }
     },
     {
@@ -33,12 +33,12 @@ const tarotCards = [
         name: "The High Priestess",
         image: "assets/high priest.webp",
         meanings: {
-            love: "직감을 믿고 내면의 소리에 귀 기울이세요. 숨겨진 진실이 드러날 수 있습니다.",
-            money: "직감과 내면의 지혜를 활용하여 결정을 내리세요. 숨겨진 기회를 발견할 수 있습니다."
+            love: "Trust your intuition and inner voice. Hidden truths may surface.",
+            money: "Use intuition and inner wisdom to decide. Hidden opportunities may appear."
         },
         reversed_meanings: {
-            love: "직감 무시·비밀과 혼란. 감정을 숨기지 말고 사실을 확인하세요.",
-            money: "정보 비대칭·모호함. 데이터 기반 판단과 검증이 필요합니다."
+            love: "Ignoring intuition; secrets and confusion. Don’t hide feelings; verify facts.",
+            money: "Information asymmetry and vagueness. Decide based on data; validate."
         }
     },
     {
@@ -46,12 +46,12 @@ const tarotCards = [
         name: "The Empress",
         image: "assets/the empress.webp",
         meanings: {
-            love: "풍부한 사랑과 성장이 기다리고 있습니다. 창조적이고 따뜻한 마음으로 관계를 발전시키세요.",
-            money: "풍요와 성장의 시기입니다. 창의적인 아이디어를 통해 부를 창조하세요."
+            love: "Abundant, growing love. Nurture the relationship with warmth and creativity.",
+            money: "A fertile period for growth. Create wealth through creative ideas."
         },
         reversed_meanings: {
-            love: "과보호·의존 경향. 건강한 거리두기와 자기돌봄이 핵심입니다.",
-            money: "창의 정체·낭비. 효율과 수익성에 집중하세요."
+            love: "Overprotection and dependence. Maintain healthy boundaries and self-care.",
+            money: "Creative block and waste. Focus on efficiency and profitability."
         }
     },
     {
@@ -59,12 +59,12 @@ const tarotCards = [
         name: "The Emperor",
         image: "assets/the emperor.webp",
         meanings: {
-            love: "안정적이고 구조적인 관계를 만들어가세요. 리더십을 발휘하여 관계를 이끌어가세요.",
-            money: "체계적이고 계획적인 접근으로 성공을 만들어가세요. 권위와 통제력을 활용하세요."
+            love: "Build a stable, structured relationship. Lead with care.",
+            money: "Succeed through planning and systems. Use authority wisely."
         },
         reversed_meanings: {
-            love: "경직·통제 과다. 유연성과 상호존중을 회복하세요.",
-            money: "권위주의·과도한 통제. 위임과 구조 개선이 필요합니다."
+            love: "Rigidity and overcontrol. Restore flexibility and mutual respect.",
+            money: "Authoritarianism and excessive control. Delegate and improve structure."
         }
     },
     {
@@ -72,12 +72,12 @@ const tarotCards = [
         name: "The Hierophant",
         image: "assets/hierophant.webp",
         meanings: {
-            love: "전통적이고 안정적인 관계를 추구하세요. 가치관이 일치하는 파트너를 찾으세요.",
-            money: "기존의 시스템과 규칙을 따르며 성공을 만들어가세요. 멘토의 조언을 받아보세요."
+            love: "Seek traditional, steady bonds. Find a partner who shares your values.",
+            money: "Follow established systems and rules. Seek a mentor’s advice."
         },
         reversed_meanings: {
-            love: "형식주의·관습의 압박. 두 사람만의 규칙을 찾으세요.",
-            money: "구식 규범 고수. 혁신과 실용으로 전환하세요."
+            love: "Formalism and social pressure. Define your own rules as a couple.",
+            money: "Clinging to outdated norms. Shift to innovation and practicality."
         }
     },
     {
@@ -85,12 +85,12 @@ const tarotCards = [
         name: "The Lovers",
         image: "assets/lovers.webp",
         meanings: {
-            love: "진정한 사랑과 조화로운 관계가 기다리고 있습니다. 중요한 선택의 순간입니다.",
-            money: "좋은 파트너십과 협력을 통해 성공을 만들어가세요. 중요한 결정을 신중하게 하세요."
+            love: "True love and harmony await. A pivotal choice is at hand.",
+            money: "Success through partnership and collaboration. Decide carefully."
         },
         reversed_meanings: {
-            love: "불협화음·우유부단. 가치 재정렬과 명료한 선택이 필요합니다.",
-            money: "파트너십 균열. 역할·계약을 명확히 하세요."
+            love: "Disharmony and indecision. Realign values and choose clearly.",
+            money: "Cracks in partnerships. Clarify roles and agreements."
         }
     },
     {
@@ -98,12 +98,12 @@ const tarotCards = [
         name: "The Chariot",
         image: "assets/the chariot.webp",
         meanings: {
-            love: "의지와 결단력으로 사랑을 이끌어가세요. 장애물을 극복하고 목표를 향해 나아가세요.",
-            money: "의지와 결단력으로 목표를 달성하세요. 장애물을 극복하고 전진하세요."
+            love: "Will and resolve move love forward. Overcome obstacles and pursue your goals.",
+            money: "Achieve goals with determination. Push through obstacles."
         },
         reversed_meanings: {
-            love: "조급함·통제 집착. 속도 조절과 공감을 우선하세요.",
-            money: "방향 혼란·무리한 추진. 목표를 재정의하세요."
+            love: "Impatience and control issues. Slow the pace and prioritize empathy.",
+            money: "Confused direction; forcing progress. Redefine objectives."
         }
     },
     {
@@ -111,12 +111,12 @@ const tarotCards = [
         name: "Strength",
         image: "assets/strength.webp",
         meanings: {
-            love: "내면의 힘과 용기로 관계를 발전시키세요. 부드러운 힘으로 상대방의 마음을 얻으세요.",
-            money: "내면의 힘과 인내심으로 도전을 극복하세요. 부드러운 접근으로 성공을 만들어가세요."
+            love: "Grow the relationship with inner strength and courage. Win hearts with gentle power.",
+            money: "Endure challenges with patience. Succeed through calm persistence."
         },
         reversed_meanings: {
-            love: "감정 폭주·자존 저하. 부드러운 절제와 자기연민이 필요합니다.",
-            money: "지속성 부족·흔들림. 루틴과 꾸준함을 복원하세요."
+            love: "Emotional overwhelm; low self-esteem. Practice gentle restraint and self-compassion.",
+            money: "Inconsistency and wobble. Restore routine and steadiness."
         }
     },
     {
@@ -124,12 +124,12 @@ const tarotCards = [
         name: "The Hermit",
         image: "assets/the hermit.webp",
         meanings: {
-            love: "혼자 있는 시간을 통해 자신을 이해하세요. 내면의 지혜를 활용하여 관계를 발전시키세요.",
-            money: "혼자 있는 시간을 통해 깊이 있는 통찰을 얻으세요. 내면의 지혜를 활용하여 성공하세요."
+            love: "Time alone brings self-understanding. Use inner wisdom to develop the relationship.",
+            money: "Solitude yields deep insight. Apply inner wisdom for success.",
         },
         reversed_meanings: {
-            love: "고립·회피. 도움과 연결을 받아들이세요.",
-            money: "단절·독단. 멘토·데이터와의 연결을 회복하세요."
+            love: "Isolation and avoidance. Accept help and connection.",
+            money: "Disconnection and dogmatism. Reconnect with mentors and data."
         }
     },
     {
@@ -137,12 +137,12 @@ const tarotCards = [
         name: "The Wheel of Fortune",
         image: "assets/the wheel.webp",
         meanings: {
-            love: "운명의 바퀴가 돌아가고 있습니다. 변화를 받아들이고 새로운 기회를 잡으세요.",
-            money: "운명의 바퀴가 돌아가고 있습니다. 변화를 받아들이고 새로운 기회를 잡으세요."
+            love: "The wheel turns. Embrace change and seize new chances.",
+            money: "The wheel turns. Welcome change and grab new opportunities."
         },
         reversed_meanings: {
-            love: "타이밍 불리·정체. 흐름이 바뀔 때까지 유연하게 대기하세요.",
-            money: "운의 역풍·변동성 확대. 리스크를 분산하세요."
+            love: "Unfavorable timing; stagnation. Wait flexibly for the tide to turn.",
+            money: "Headwinds of luck; rising volatility. Diversify risk."
         }
     },
     {
@@ -150,12 +150,12 @@ const tarotCards = [
         name: "Justice",
         image: "assets/justice.webp",
         meanings: {
-            love: "공정하고 균형 잡힌 관계를 만들어가세요. 진실과 정직함을 바탕으로 관계를 발전시키세요.",
-            money: "공정하고 균형 잡힌 결정을 내리세요. 진실과 정직함을 바탕으로 성공하세요."
+            love: "Build a fair, balanced relationship grounded in truth and honesty.",
+            money: "Make fair, balanced decisions. Succeed with integrity."
         },
         reversed_meanings: {
-            love: "불공정·편파를 경계하고 사실 기반으로 대화하세요.",
-            money: "규정 위반·왜곡을 피하고 투명성과 책임을 강화하세요."
+            love: "Guard against unfairness and bias; speak from facts.",
+            money: "Avoid rule-bending and distortion; strengthen transparency and accountability."
         }
     },
     {
@@ -163,12 +163,12 @@ const tarotCards = [
         name: "The Hanged Man",
         image: "assets/hanged man.webp",
         meanings: {
-            love: "새로운 관점에서 관계를 바라보세요. 희생과 인내를 통해 깊이 있는 사랑을 얻으세요.",
-            money: "새로운 관점에서 상황을 바라보세요. 희생과 인내를 통해 깊이 있는 통찰을 얻으세요."
+            love: "See the relationship from a new angle. Gain deeper love through sacrifice and patience.",
+            money: "Shift perspective; insight comes through pause and patience."
         },
         reversed_meanings: {
-            love: "집착·지연. 시각 전환과 내려놓기가 필요합니다.",
-            money: "멈춤의 의미 상실. 인사이트를 행동으로 옮기세요."
+            love: "Attachment and delay. Change your view and let go.",
+            money: "The pause has lost meaning. Turn insight into action."
         }
     },
     {
@@ -176,12 +176,12 @@ const tarotCards = [
         name: "Death",
         image: "assets/death.webp",
         meanings: {
-            love: "오래된 관계의 끝과 새로운 시작이 있습니다. 변화를 받아들이고 새로운 사랑을 찾으세요.",
-            money: "오래된 방식의 끝과 새로운 시작이 있습니다. 변화를 받아들이고 새로운 기회를 찾으세요."
+            love: "An ending leads to a new beginning. Accept change and find new love.",
+            money: "Old methods end; new ones begin. Embrace change and seek fresh opportunities."
         },
         reversed_meanings: {
-            love: "변화 저항. 끝맺고 새 출발을 준비하세요.",
-            money: "정체·미련. 비효율을 과감히 정리하세요."
+            love: "Resistance to change. Close chapters and prepare for a new start.",
+            money: "Stagnation and clinging. Cut inefficiencies decisively."
         }
     },
     {
@@ -189,12 +189,12 @@ const tarotCards = [
         name: "Temperance",
         image: "assets/temperance.webp",
         meanings: {
-            love: "균형과 조화를 유지하며 관계를 발전시키세요. 인내와 절제를 통해 완벽한 조화를 이루세요.",
-            money: "균형과 조화를 유지하며 성공을 만들어가세요. 인내와 절제를 통해 완벽한 조화를 이루세요."
+            love: "Grow through balance and harmony. Achieve a perfect blend with patience and restraint.",
+            money: "Create success through balance and harmony. Practice patience and moderation."
         },
         reversed_meanings: {
-            love: "불균형·과함. 조율·타협으로 균형을 회복하세요.",
-            money: "과투자·과소비. 포트폴리오를 리밸런싱하세요."
+            love: "Imbalance and excess. Restore balance through tuning and compromise.",
+            money: "Over-investing or overspending. Rebalance your portfolio."
         }
     },
     {
@@ -202,12 +202,12 @@ const tarotCards = [
         name: "The Devil",
         image: "assets/the devil.webp",
         meanings: {
-            love: "유혹과 집착에서 벗어나 자유로운 사랑을 찾으세요. 진정한 사랑의 본질을 파악하세요.",
-            money: "물질적 욕망에서 벗어나 진정한 가치를 찾으세요. 자유와 해방을 통해 성공하세요."
+            love: "Break free from temptation and obsession. Seek free, authentic love.",
+            money: "Release material fixation; pursue true value. Freedom brings success."
         },
         reversed_meanings: {
-            love: "집착 해소·의존 탈피. 건강한 경계를 세우세요.",
-            money: "과소비·욕망의 굴레에서 벗어나기. 미니멀 전략을 취하세요."
+            love: "Release obsession and dependency. Set healthy boundaries.",
+            money: "Escape overspending and desire traps. Choose a minimalist strategy."
         }
     },
     {
@@ -215,12 +215,12 @@ const tarotCards = [
         name: "The Tower",
         image: "assets/the tower.webp",
         meanings: {
-            love: "갑작스러운 변화와 깨달음이 있습니다. 오래된 믿음과 구조를 허물고 새로운 사랑을 찾으세요.",
-            money: "갑작스러운 변화와 깨달음이 있습니다. 오래된 믿음과 구조를 허물고 새로운 성공을 찾으세요."
+            love: "Sudden change and revelation. Dismantle old beliefs and find new love.",
+            money: "Sudden upheaval and insight. Break old structures and find new success."
         },
         reversed_meanings: {
-            love: "충돌 회피·변화 지연. 작은 붕괴로 큰 위험을 방지하세요.",
-            money: "리스크 축적. 점진적 구조조정으로 충격을 분산하세요."
+            love: "Avoiding conflict; delaying change. Small controlled breaks prevent bigger risks.",
+            money: "Risk accumulation. Restructure gradually to soften shocks."
         }
     },
     {
@@ -228,12 +228,12 @@ const tarotCards = [
         name: "The Star",
         image: "assets/the star.webp",
         meanings: {
-            love: "희망과 영감을 바탕으로 새로운 사랑을 찾으세요. 꿈을 향해 나아가면 사랑이 기다리고 있습니다.",
-            money: "희망과 영감을 바탕으로 새로운 성공을 찾으세요. 꿈을 향해 나아가면 성공이 기다리고 있습니다."
+            love: "Hope and inspiration guide new love. Move toward your dreams.",
+            money: "Hope and inspiration lead to success. Pursue your dreams."
         },
         reversed_meanings: {
-            love: "희망 저하·의심. 회복과 셀프케어가 선행되어야 합니다.",
-            money: "목표 희석·현실 괴리. 비전을 재정렬하고 현실을 점검하세요."
+            love: "Diminished hope and doubt. Prioritize recovery and self-care.",
+            money: "Diluted goals; reality gap. Realign vision and check reality."
         }
     },
     {
@@ -241,12 +241,12 @@ const tarotCards = [
         name: "The Moon",
         image: "assets/the moon.webp",
         meanings: {
-            love: "직감과 상상력을 활용하여 숨겨진 진실을 발견하세요. 환상과 현실을 구분하세요.",
-            money: "직감과 상상력을 활용하여 숨겨진 기회를 발견하세요. 환상과 현실을 구분하세요."
+            love: "Use intuition and imagination to uncover hidden truths. Separate fantasy from reality.",
+            money: "Use intuition and imagination to find hidden opportunities. Separate fantasy from reality."
         },
         reversed_meanings: {
-            love: "오해 해소·진실 드러남. 감정을 명료화하세요.",
-            money: "불확실성 축소. 데이터로 안개를 걷어내세요."
+            love: "Misunderstandings clear; truth emerges. Clarify feelings.",
+            money: "Less uncertainty. Use data to clear the fog."
         }
     },
     {
@@ -254,12 +254,12 @@ const tarotCards = [
         name: "The Sun",
         image: "assets/the sun.webp",
         meanings: {
-            love: "밝고 따뜻한 사랑이 기다리고 있습니다. 자신감과 낙관적인 마음으로 사랑을 찾으세요.",
-            money: "밝고 따뜻한 성공이 기다리고 있습니다. 자신감과 낙관적인 마음으로 성공을 찾으세요."
+            love: "Bright, warm love awaits. Seek with confidence and optimism.",
+            money: "Bright, warm success awaits. Pursue with confidence and optimism."
         },
         reversed_meanings: {
-            love: "과한 낙관·피로. 소소한 기쁨을 회복하세요.",
-            money: "번아웃·현실 점검. 휴식과 리셋이 필요합니다."
+            love: "Over-optimism and fatigue. Recover simple joys.",
+            money: "Burnout and reality check. Rest and reset."
         }
     },
     {
@@ -267,12 +267,12 @@ const tarotCards = [
         name: "Judgement",
         image: "assets/judgement.webp",
         meanings: {
-            love: "새로운 깨달음과 부활의 시기입니다. 과거를 용서하고 새로운 사랑을 시작하세요.",
-            money: "새로운 깨달음과 부활의 시기입니다. 과거를 용서하고 새로운 성공을 시작하세요."
+            love: "Awakening and rebirth. Forgive the past and start anew in love.",
+            money: "Awakening and revival. Forgive the past and begin a new success."
         },
         reversed_meanings: {
-            love: "자기의심·용서 필요. 관계의 소명을 재확인하세요.",
-            money: "결단 회피. 학습을 통합해 재도전하세요."
+            love: "Self-doubt; need for forgiveness. Reconfirm the relationship’s calling.",
+            money: "Avoiding decisions. Integrate learning and try again."
         }
     },
     {
@@ -280,12 +280,12 @@ const tarotCards = [
         name: "The World",
         image: "assets/the world.webp",
         meanings: {
-            love: "완성과 성취의 시기입니다. 모든 경험을 통합하여 완벽한 사랑을 이루세요.",
-            money: "완성과 성취의 시기입니다. 모든 경험을 통합하여 완벽한 성공을 이루세요."
+            love: "Completion and fulfillment. Integrate experiences to realize perfect love.",
+            money: "Completion and fulfillment. Integrate experiences to achieve lasting success."
         },
         reversed_meanings: {
-            love: "미완·정체. 마무리 과제를 해결하세요.",
-            money: "프로젝트 미완료. 마감·인도까지 끝내세요."
+            love: "Incomplete; stuck. Finish unfinished business.",
+            money: "Unfinished projects. Complete through delivery and closure."
         }
     }
 ];
@@ -294,96 +294,96 @@ const tarotCards = [
 tarotCards.forEach((c) => {
   switch (c.name) {
     case 'The Fool':
-      c.meanings.reversedLove = '경솔함과 방향성 부족. 관계에서 속도를 늦추고 신중함을 더하세요.';
-      c.meanings.reversedMoney = '성급한 투자·결정 주의. 기본기를 점검하고 계획을 세우세요.';
+      c.meanings.reversedLove = 'Impulsiveness and lack of direction. Slow down and be thoughtful.';
+      c.meanings.reversedMoney = 'Beware rash investments and decisions. Revisit fundamentals and plan.';
       break;
     case 'The Magician':
-      c.meanings.reversedLove = '의사소통 왜곡·조작적 태도 경계. 진정성 회복이 필요.';
-      c.meanings.reversedMoney = '계획 미흡·분산된 에너지. 우선순위를 정하고 실행력을 개선.';
+      c.meanings.reversedLove = 'Guard against manipulation and distorted communication. Restore sincerity.';
+      c.meanings.reversedMoney = 'Poor planning and scattered energy. Set priorities and improve execution.';
       break;
     case 'The High Priestess':
-      c.meanings.reversedLove = '직감 무시·비밀과 혼란. 감정을 숨기지 말고 사실 확인.';
-      c.meanings.reversedMoney = '정보 비대칭·모호함. 데이터 기반 판단과 검증이 필요.';
+      c.meanings.reversedLove = 'Ignoring intuition; secrets and confusion. Share feelings and verify facts.';
+      c.meanings.reversedMoney = 'Information gaps and ambiguity. Use data-driven decisions and validation.';
       break;
     case 'The Empress':
-      c.meanings.reversedLove = '과보호·의존. 건강한 거리두기와 자기돌봄이 핵심.';
-      c.meanings.reversedMoney = '창의 정체·낭비. 효율과 수익성에 집중.';
+      c.meanings.reversedLove = 'Overprotection and dependence. Healthy boundaries and self-care matter.';
+      c.meanings.reversedMoney = 'Creative stagnation and waste. Focus on efficiency and profitability.';
       break;
     case 'The Emperor':
-      c.meanings.reversedLove = '경직·통제 과다. 유연성과 상호존중을 회복.';
-      c.meanings.reversedMoney = '권위주의·과도한 통제. 위임과 구조 개선 필요.';
+      c.meanings.reversedLove = 'Rigidity and overcontrol. Restore flexibility and mutual respect.';
+      c.meanings.reversedMoney = 'Authoritarianism and overcontrol. Delegate and improve structures.';
       break;
     case 'The Hierophant':
-      c.meanings.reversedLove = '형식주의·관습의 압박. 두 사람만의 규칙을 찾기.';
-      c.meanings.reversedMoney = '구식 규범 고수. 혁신과 실용으로 전환.';
+      c.meanings.reversedLove = 'Formalism and pressure of convention. Create your own rules together.';
+      c.meanings.reversedMoney = 'Outdated norms. Shift toward innovation and practicality.';
       break;
     case 'The Lovers':
-      c.meanings.reversedLove = '불협화음·우유부단. 가치 재정렬과 명료한 선택.';
-      c.meanings.reversedMoney = '파트너십 균열. 역할·계약을 명확히.';
+      c.meanings.reversedLove = 'Disharmony and indecision. Realign values and choose clearly.';
+      c.meanings.reversedMoney = 'Partnership cracks. Clarify roles and agreements.';
       break;
     case 'The Chariot':
-      c.meanings.reversedLove = '조급·통제 집착. 속도 조절과 공감 우선.';
-      c.meanings.reversedMoney = '방향 혼란·무리한 추진. 목표 재정의.';
+      c.meanings.reversedLove = 'Impatience and control fixation. Adjust pace and prioritize empathy.';
+      c.meanings.reversedMoney = 'Direction confusion; over-pushing. Redefine goals.';
       break;
     case 'Strength':
-      c.meanings.reversedLove = '감정 폭주·자존 저하. 부드러운 절제와 자기연민.';
-      c.meanings.reversedMoney = '마음 흔들림·지속성 부족. 루틴과 꾸준함 복원.';
+      c.meanings.reversedLove = 'Emotional overflow and low self-worth. Gentle restraint and self-compassion.';
+      c.meanings.reversedMoney = 'Lack of consistency. Restore routine and steadiness.';
       break;
     case 'The Hermit':
-      c.meanings.reversedLove = '고립·회피. 도움과 연결을 받아들이기.';
-      c.meanings.reversedMoney = '단절·독단. 멘토·데이터와의 연결 회복.';
+      c.meanings.reversedLove = 'Isolation and avoidance. Allow help and connection.';
+      c.meanings.reversedMoney = 'Disconnection and dogmatism. Reconnect with mentors and data.';
       break;
     case 'The Wheel of Fortune':
-      c.meanings.reversedLove = '타이밍 불리·정체. 흐름 바뀔 때까지 유연하게 대기.';
-      c.meanings.reversedMoney = '운의 역풍·변동성 확대. 리스크 분산.';
+      c.meanings.reversedLove = 'Unfavorable timing and stagnation. Wait flexibly for the shift.';
+      c.meanings.reversedMoney = 'Headwinds of luck; rising volatility. Diversify risk.';
       break;
     case 'Justice':
-      c.meanings.reversedLove = '불공정·편파. 사실 기반 대화와 책임 공유.';
-      c.meanings.reversedMoney = '규정 위반·왜곡. 투명성과 컴플라이언스 강화.';
+      c.meanings.reversedLove = 'Unfairness and bias. Speak from facts and share responsibility.';
+      c.meanings.reversedMoney = 'Rule violations and distortion. Strengthen transparency and compliance.';
       break;
     case 'The Hanged Man':
-      c.meanings.reversedLove = '집착·지연. 시각 전환과 내려놓기.';
-      c.meanings.reversedMoney = '멈춤의 의미 상실. 인사이트를 행동으로.';
+      c.meanings.reversedLove = 'Attachment and delay. Shift perspective and let go.';
+      c.meanings.reversedMoney = 'The pause has lost meaning. Turn insight into action.';
       break;
     case 'Death':
-      c.meanings.reversedLove = '변화 저항. 끝맺고 새 출발을 준비.';
-      c.meanings.reversedMoney = '정체·미련. 비효율을 과감히 정리.';
+      c.meanings.reversedLove = 'Resistance to change. Finish and prepare for a new start.';
+      c.meanings.reversedMoney = 'Stagnation and regret. Cut inefficiencies decisively.';
       break;
     case 'Temperance':
-      c.meanings.reversedLove = '불균형·과함. 조율·타협으로 균형 회복.';
-      c.meanings.reversedMoney = '과투자·과소비. 포트폴리오 리밸런싱.';
+      c.meanings.reversedLove = 'Imbalance and excess. Restore balance through tuning and compromise.';
+      c.meanings.reversedMoney = 'Over-investing or overspending. Rebalance the portfolio.';
       break;
     case 'The Devil':
-      c.meanings.reversedLove = '집착 해소·의존 탈피. 경계 재설정.';
-      c.meanings.reversedMoney = '과소비·욕망의 굴레 탈피. 미니멀 전략.';
+      c.meanings.reversedLove = 'Release obsession and dependency. Reset boundaries.';
+      c.meanings.reversedMoney = 'Break free from overspending and desire traps. Minimalist strategy.';
       break;
     case 'The Tower':
-      c.meanings.reversedLove = '충돌 회피·변화 지연. 작은 붕괴로 큰 위험 방지.';
-      c.meanings.reversedMoney = '리스크 축적. 점진적 구조조정.';
+      c.meanings.reversedLove = 'Avoiding conflict; delayed change. Use small breaks to prevent big risks.';
+      c.meanings.reversedMoney = 'Risk is building up. Restructure gradually.';
       break;
     case 'The Star':
-      c.meanings.reversedLove = '희망 저하·의심. 회복·셀프케어가 선행.';
-      c.meanings.reversedMoney = '목표 희석. 비전 재정렬과 현실 점검.';
+      c.meanings.reversedLove = 'Lowered hope and doubt. Recovery and self-care first.';
+      c.meanings.reversedMoney = 'Goals diluted. Realign vision and check reality.';
       break;
     case 'The Moon':
-      c.meanings.reversedLove = '오해 해소·진실 드러남. 감정 명료화.';
-      c.meanings.reversedMoney = '불확실성 축소. 데이터로 안개 걷기.';
+      c.meanings.reversedLove = 'Misunderstandings resolve; truth appears. Clarify emotions.';
+      c.meanings.reversedMoney = 'Uncertainty decreases. Clear the fog with data.';
       break;
     case 'The Sun':
-      c.meanings.reversedLove = '과한 낙관·피로. 소소한 기쁨 회복.';
-      c.meanings.reversedMoney = '번아웃·현실 점검. 휴식과 리셋.';
+      c.meanings.reversedLove = 'Over-optimism and fatigue. Recover simple joys.';
+      c.meanings.reversedMoney = 'Burnout and reality check. Rest and reset.';
       break;
     case 'Judgement':
-      c.meanings.reversedLove = '자기의심·용서 필요. 관계의 소명 재확인.';
-      c.meanings.reversedMoney = '결단 회피. 학습을 통합해 재도전.';
+      c.meanings.reversedLove = 'Self-doubt; need for forgiveness. Reconfirm the relationship’s calling.';
+      c.meanings.reversedMoney = 'Avoiding decisions. Integrate learning and try again.';
       break;
     case 'The World':
-      c.meanings.reversedLove = '미완·정체. 마무리와 이별 과제 해결.';
-      c.meanings.reversedMoney = '프로젝트 미완료. 마감·인도까지 끝내기.';
+      c.meanings.reversedLove = 'Incomplete and stuck. Resolve unfinished endings.';
+      c.meanings.reversedMoney = 'Projects incomplete. Finish through delivery and closure.';
       break;
     default:
-      c.meanings.reversedLove = '역방향: 관계를 천천히 재정렬하세요.';
-      c.meanings.reversedMoney = '역방향: 보수적으로 리스크를 관리하세요.';
+      c.meanings.reversedLove = 'Reversed: realign the relationship slowly.';
+      c.meanings.reversedMoney = 'Reversed: manage risk conservatively.';
   }
 });
 
@@ -445,7 +445,7 @@ function updateConfirmButtonState() {
 
 function updateRemainingCounter() {
     const remaining = Math.max(0, 3 - drawnCards.length);
-    remainingCounter.textContent = `남은 카드: ${remaining}`;
+    remainingCounter.textContent = `Cards remaining: ${remaining}`;
 }
 
 // Draw a single card
@@ -573,7 +573,7 @@ function showResults() {
     if (drawnCards.length !== 3 || !selectedFortuneType) return;
     
     // Update fortune type title
-    const fortuneTypeText = selectedFortuneType === 'love' ? '연애운' : '금전운';
+    const fortuneTypeText = selectedFortuneType === 'love' ? 'Love' : 'Money';
     fortuneTypeTitle.textContent = fortuneTypeText;
     
     // Display result cards
@@ -617,26 +617,26 @@ function getShortMeaning(text) {
 // Generate fortune interpretation (concise, non-duplicative)
 function generateInterpretation() {
     const type = selectedFortuneType;
-    const label = type === 'love' ? '연애운' : '금전운';
+    const label = type === 'love' ? 'Love' : 'Money';
     const [e1, e2, e3] = drawnCards; // {card, reversed}
 
     let html = '';
-    html += `<strong>${label} 종합 해석</strong><br><br>`;
-    html += `이번 조합은 <em>${e1.card.name}${e1.reversed ? ' (R)' : ''}</em>, <em>${e2.card.name}${e2.reversed ? ' (R)' : ''}</em>, <em>${e3.card.name}${e3.reversed ? ' (R)' : ''}</em> 입니다. `;
+    html += `<strong>${label} Overall Reading</strong><br><br>`;
+    html += `This spread is <em>${e1.card.name}${e1.reversed ? ' (R)' : ''}</em>, <em>${e2.card.name}${e2.reversed ? ' (R)' : ''}</em>, <em>${e3.card.name}${e3.reversed ? ' (R)' : ''}</em>. `;
 
     const m1 = e1.reversed ? e1.card.reversed_meanings[type] : e1.card.meanings[type];
     const m2 = e2.reversed ? e2.card.reversed_meanings[type] : e2.card.meanings[type];
     const m3 = e3.reversed ? e3.card.reversed_meanings[type] : e3.card.meanings[type];
 
-    html += `${e1.card.name}${e1.reversed ? ' 역방향은' : ' 는'} "${getShortMeaning(m1)}"의 출발을 알리고, `;
-    html += `${e2.card.name}${e2.reversed ? ' 역방향은' : ' 는'} "${getShortMeaning(m2)}"로 흐름을 이어가며, `;
-    html += `마지막 ${e3.card.name}${e3.reversed ? ' 역방향은' : ' 는'} "${getShortMeaning(m3)}"로 방향을 마무리합니다.`;
+    html += `${e1.card.name}${e1.reversed ? ' (reversed)' : ''} opens with "${getShortMeaning(m1)}", `;
+    html += `${e2.card.name}${e2.reversed ? ' (reversed)' : ''} continues with "${getShortMeaning(m2)}", `;
+    html += `and ${e3.card.name}${e3.reversed ? ' (reversed)' : ''} concludes with "${getShortMeaning(m3)}".`;
 
-    html += `<br><br><strong>가이드</strong><br>`;
+    html += `<br><br><strong>Guidance</strong><br>`;
     if (type === 'love') {
-        html += `감정의 급변보다는 차분한 대화와 성숙한 선택이 중요합니다. 오늘–일주일 사이에 작은 실천부터 시작해 보세요.`;
+        html += `Favor calm conversations and mature choices over sudden emotion. Start one small action today or within a week.`;
     } else {
-        html += `무리한 확장보다 리스크 관리와 선택과 집중이 유리합니다. 오늘–일주일 사이 실행할 수 있는 한 가지 행동을 정하세요.`;
+        html += `Prefer risk management and focus over reckless expansion. Choose one concrete action to execute today or within a week.`;
     }
 
     interpretationText.innerHTML = html;

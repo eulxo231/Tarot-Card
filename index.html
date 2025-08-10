@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>타로카드 운세</title>
+    <title>Tarot Reading</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- 페이지 1: 카드 뽑기 및 운세 선택 -->
+    <!-- Page 1: Draw cards and choose reading type -->
     <div id="page1" class="page active">
         <div class="container">
-            <h1 class="title">타로카드 운세</h1>
-            <p class="subtitle">3장의 카드를 뽑아 당신의 운세를 확인하세요</p>
+            <h1 class="title">Tarot Reading</h1>
+            <p class="subtitle">Draw 3 cards to see your reading</p>
 
-            <!-- 카드 뽑기 영역 (먼저) -->
+            <!-- Card draw area (first) -->
             <div class="card-drawing-area">
                 <div class="deck-container">
                     <div class="deck" id="deck">
@@ -22,55 +22,55 @@
                         <div class="deck-back"></div>
                     </div>
                     <div class="draw-controls">
-                        <button class="draw-btn" id="drawBtn" disabled>카드 뽑기</button>
-                        <span class="remaining-counter" id="remainingCounter">남은 카드: 3</span>
+                        <button class="draw-btn" id="drawBtn" disabled>Draw Card</button>
+                        <span class="remaining-counter" id="remainingCounter">Cards remaining: 3</span>
                     </div>
                 </div>
 
                 <div class="drawn-cards" id="drawnCards">
-                    <!-- 뽑힌 카드들이 여기에 표시됩니다 -->
+                    <!-- Drawn cards appear here -->
                 </div>
             </div>
 
-            <!-- 운세 종류 선택 (나중) -->
+            <!-- Reading type selection (later) -->
             <div class="fortune-selection hidden" id="fortuneSelection">
-                <h2>어떤 운세를 보시겠습니까?</h2>
+                <h2>Which reading would you like?</h2>
                 <div class="fortune-options">
-                    <button class="fortune-btn" data-fortune="love">연애운</button>
-                    <button class="fortune-btn" data-fortune="money">금전운</button>
+                    <button class="fortune-btn" data-fortune="love">Love</button>
+                    <button class="fortune-btn" data-fortune="money">Money</button>
                 </div>
             </div>
 
-            <!-- 확인 버튼 -->
-            <button class="confirm-btn" id="confirmBtn" disabled>운세 확인하기</button>
+            <!-- Confirm button -->
+            <button class="confirm-btn" id="confirmBtn" disabled>Show Reading</button>
         </div>
     </div>
 
-    <!-- 페이지 2: 카드 해석 및 운세 결과 -->
+    <!-- Page 2: Cards and reading result -->
     <div id="page2" class="page">
         <div class="container">
-            <h1 class="title">당신의 운세 결과</h1>
+            <h1 class="title">Your Reading</h1>
 
-            <!-- 선택된 운세 종류 표시 -->
+            <!-- Selected reading type -->
             <div class="fortune-type-display">
-                <h2 id="fortuneTypeTitle">연애운</h2>
+                <h2 id="fortuneTypeTitle">Love</h2>
             </div>
 
-            <!-- 뽑힌 카드들 표시 -->
+            <!-- Drawn cards -->
             <div class="result-cards" id="resultCards">
-                <!-- 결과 카드들이 여기에 표시됩니다 -->
+                <!-- Result cards appear here -->
             </div>
 
-            <!-- 운세 해석 결과 -->
+            <!-- Reading interpretation -->
             <div class="fortune-interpretation">
-                <h3>운세 해석</h3>
+                <h3>Interpretation</h3>
                 <div class="interpretation-text" id="interpretationText">
-                    <!-- 운세 해석이 여기에 표시됩니다 -->
+                    <!-- The reading interpretation will appear here -->
                 </div>
             </div>
 
-            <!-- 다시하기 버튼 -->
-            <button class="restart-btn" id="restartBtn">다시하기</button>
+            <!-- Restart button -->
+            <button class="restart-btn" id="restartBtn">Restart</button>
         </div>
     </div>
 
