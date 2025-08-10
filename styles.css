@@ -66,6 +66,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    /* Prevent layout shifts during card animations */
+    align-items: flex-start;
 }
 
 .card {
@@ -77,9 +79,11 @@ body {
     margin: 5px;
     position: relative;
     transform-style: preserve-3d;
+    /* Ensure card maintains its position in the flexbox grid */
+    flex-shrink: 0;
 }
 
-.card:hover {
+.card:hover:not(.flipped) {
     transform: translateY(-10px);
 }
 
@@ -87,13 +91,13 @@ body {
     transform: rotateY(180deg);
 }
 
+/* Ensure flipped cards maintain their exact position */
 .card.flipped {
-    transform: none;
-}
-
-.card.flipped .card-front,
-.card.flipped .card-back {
-    transform: none;
+    transform: none !important;
+    /* Force the card to stay in its grid position */
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .card-inner {
@@ -104,6 +108,10 @@ body {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     transform-origin: center center;
+    /* Ensure the inner element doesn't affect outer positioning */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .card-front, .card-back {

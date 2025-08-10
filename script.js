@@ -361,9 +361,9 @@ function handleCardClick(event) {
     // Add flip animation sound effect (optional)
     playFlipSound();
     
-    // Check if all cards are flipped (now 22 cards)
-    if (flippedCards.length === 22) {
-        console.log('All cards flipped!');
+    // Check if 5 cards are flipped (changed from 22 to 5)
+    if (flippedCards.length === 5) {
+        console.log('5 cards flipped!');
         setTimeout(() => {
             showIntuitionOptions();
         }, 1000);
