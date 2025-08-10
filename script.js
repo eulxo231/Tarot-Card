@@ -431,16 +431,21 @@ function displaySelectedCards() {
 }
 
 function generateIntuitionReading() {
-    // Combine meanings from all selected cards
+    // Select 3-5 key cards for a focused reading instead of all 22
+    const keyCardCount = Math.min(5, flippedCards.length);
+    const shuffledCards = [...flippedCards].sort(() => Math.random() - 0.5);
+    const keyCards = shuffledCards.slice(0, keyCardCount);
+    
+    // Create a focused, meaningful reading
     let combinedReading = '';
     
-    flippedCards.forEach((cardIndex, index) => {
+    keyCards.forEach((cardIndex, index) => {
         const card = tarotCards[cardIndex];
         const meaning = card.meanings[selectedIntuitionType];
         
         if (index === 0) {
             combinedReading += `The ${card.name} reveals that ${meaning.toLowerCase()}`;
-        } else if (index === flippedCards.length - 1) {
+        } else if (index === keyCards.length - 1) {
             combinedReading += ` Finally, the ${card.name} suggests that ${meaning.toLowerCase()}`;
         } else {
             combinedReading += ` The ${card.name} indicates that ${meaning.toLowerCase()}`;
@@ -457,6 +462,11 @@ function generateIntuitionReading() {
     
     combinedReading += ` ${conclusions[selectedIntuitionType]}`;
     
+    // Limit reading length to prevent overwhelming text
+    if (combinedReading.length > 800) {
+        combinedReading = combinedReading.substring(0, 800) + '...';
+    }
+    
     // Display the reading with typing animation
     typeWriter(intuitionText, combinedReading);
 }
@@ -469,7 +479,8 @@ function typeWriter(element, text) {
         if (i < text.length) {
             element.textContent += text.charAt(i);
             i++;
-            setTimeout(type, 30);
+            // Faster typing for better readability
+            setTimeout(type, 20);
         }
     }
     
